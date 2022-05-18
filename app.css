@@ -1,6 +1,6 @@
 body{background: black;}
 #acai{position: absolute;
-right: 600px;}
+left: 530px;}
 ol{list-style: none;
 display: flex;
 align-items: baseline;}
@@ -20,3 +20,25 @@ right: 200px;}
         right: 250px;
     border: solid 10px white;
         border-radius: 3px;}
+        #complementos{width: 300px;
+            height: 240px;
+            background-color: whitesmoke;
+            margin: 50px;
+        border: solid rgb(70, 70, 70);
+    position: absolute;
+top: 580px;
+left: 80px;
+display: none;}
+#complementosdois{width: 300px;
+    height: 240px;
+    background-color: whitesmoke;
+    margin: 50px;
+border: solid rgb(70, 70, 70);
+position: absolute;
+top: 580px;
+right: 80px;
+display: none;}
+h1{color: whitesmoke;}
+#finalizando{position: absolute;
+top: 200px;
+left: 550px;}
