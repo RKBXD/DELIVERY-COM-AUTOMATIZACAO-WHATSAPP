@@ -6,3 +6,7 @@ function clicar () {complementos.style.display='flex'}
 function clicard () {complementosdois.style.display='flex'}
 function clicarFechar () {complementos.style.display='none'}
 function clicarFechard () {complementosdois.style.display='none'}
+
+function cli (String) {var car = document.getElementById('carrinho').innerHTML;
+document.getElementById('carrinho').innerHTML = car + String ;
+}

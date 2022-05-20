@@ -13,21 +13,21 @@
 <hr>
 <div>
     <ol>
-        <li><img src="200ML.png" alt="" id="doisml"><button id="doisad" onclick="clicar()">ADICIONAR</button></li>
-        <li><img src="500ML.png" alt="" id="cincoml"><button id="cincoad" onclick="clicard()">ADICIONAR</button></li>
+        <li><img src="200ML.png" alt="" id="doisml" ><button id="doisad" onclick="clicar()" value="Acai 200ML">ADICIONAR COMPLEMENTOS</button> <button id="quero" onclick="cli('Acai 200ML')">EU QUERO!!</button> </li>
+        <li><img src="500ML.png" alt="" id="cincoml" ><button id="cincoad" onclick="clicard()" value="Acai 500ML">ADICIONAR COMPLEMENTOS</button> <button id="querodois" onclick="cli('Acai 500ML')">EU QUERO!!</button></li>
     </ol>
     <div id="complementos">
         <pre>
         
-        <input type="checkbox" name="" id=""> Granulado
+        <input type="checkbox" name="" id="" onclick="cli(', Granulado')"> Granulado
         
-        <input type="checkbox" name="" id=""> Jujuba
+        <input type="checkbox" name="" id="" onclick="cli(', Jujuba')"> Jujuba
         
-        <input type="checkbox" name="" id=""> Leite em pó
+        <input type="checkbox" name="" id="" onclick="cli(', Leite em pó')"> Leite em pó
         
-        <input type="checkbox" name="" id=""> Sucrilhos
+        <input type="checkbox" name="" id="" onclick="cli(', Sucrilhos')"> Sucrilhos
         
-        <input type="checkbox" name="" id=""> Flocos de arroz
+        <input type="checkbox" name="" id="" onclick="cli(', Flocos de arroz')"> Flocos de arroz
     
         <input type="button" value="OK!" onclick="clicarFechar()">
     </pre>
@@ -35,15 +35,15 @@
     <div id="complementosdois">
         <pre>
         
-        <input type="checkbox" name="" id=""> Granulado
+        <input type="checkbox" name="" id="" onclick="cli(', Granulado')"> Granulado
         
-        <input type="checkbox" name="" id=""> Jujuba
+        <input type="checkbox" name="" id="" onclick="cli(', Jujuba')"> Jujuba
         
-        <input type="checkbox" name="" id=""> Leite em pó
+        <input type="checkbox" name="" id="" onclick="cli(', Leite em pó')"> Leite em pó
         
-        <input type="checkbox" name="" id=""> Sucrilhos
+        <input type="checkbox" name="" id="" onclick="cli(', Sucrilhos')"> Sucrilhos
         
-        <input type="checkbox" name="" id=""> Flocos de arroz
+        <input type="checkbox" name="" id="" onclick="cli(', Flocos de arroz')"> Flocos de arroz
     
         <input type="button" value="OK!" onclick="clicarFechard()">
     </pre>
@@ -63,7 +63,7 @@
 
 <input type="number" placeholder="TROCO?">
 
-<h1>NOME</h1>
+<h1>ENDEREÇO</h1>
 <select name="select">
     <option value="" disabled selected>AREA</option>
     <option value="CASA">CASA</option>
@@ -78,12 +78,23 @@
     <option value="MAUA TAXA R$2,00">MAUA</option>
 </select>
 
-<input type="number" placeholder="NUMERO"> <input type="number" placeholder="NUMERO PREDIO">
+<input type="number" placeholder="NUMERO"> 
+
+<input type="number" placeholder="NUMERO PREDIO">
 
 <input type="text" placeholder="RUA">
 
 <input type="text" placeholder="PONTO DE REFERENCIA">
 </pre>   </div>
+
+<h1>CARRINHO</h1>
+<p id="carrinho"></p>
+
+<div id="dados">
+    <h1>CLIENTE</h1>
+    <p id="carrinhoDados"></p>
+</div>
+
 </div>
 </body>
 </html>
