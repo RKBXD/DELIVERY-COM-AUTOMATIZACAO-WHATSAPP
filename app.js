@@ -10,3 +10,7 @@ function clicarFechard () {complementosdois.style.display='none'}
 function cli (String) {var car = document.getElementById('carrinho').innerHTML;
 document.getElementById('carrinho').innerHTML = car + String ;
 }
+
+function apagar () {
+   var zer = null;
+    document.getElementById('carrinho').innerHTML = zer;}
